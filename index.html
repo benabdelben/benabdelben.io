@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Preview</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      padding-top: 3rem;
+      background: url("https://via.placeholder.com/1200x700") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .4), #0f172a);
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      max-width: 500px;
+    }
+
+    .game-icon {
+      width: 120px;
+      border-radius: 24px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 8px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* Buttons */
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .2s, opacity .2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .primary {
+      background: #22c55e;
+      color: #022c22;
+    }
+
+    .secondary {
+      background: rgba(255, 255, 255, .15);
+      color: white;
+    }
+
+    /* Sections */
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .section p {
+      text-align: justify;
+      line-height: 2.5rem;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    /* Screenshots */
+    .screenshots-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .screenshots-grid img {
+      width: 100%;
+      border-radius: 16px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img class="game-icon" src="https://i.ibb.co/x85v3qbf/5a0b4931-49a8-4d49-be0f-d7e8da6d440d.png" alt="Game Icon">
+      <h1>Obby Parkour</h1>
+      <p>Run, jump, and survive challenging parkour levels!</p>
+      <div class="buttons">
+        <a href="#" class="btn primary">Download</a>
+        <a href="#" class="btn secondary">Watch Trailer</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section">
+    <h2>About the Game</h2>
+    <p>
+      Welcome to Obby Parkour: Runner Game, a colorful and exciting world where every leap, sprint, and discovery keeps you engaged. Dive into an Obby Parkour experience filled with vibrant environments designed to challenge both your movement skills and your focus.
+Explore parkour-inspired levels packed with dynamic obstacles and carefully crafted visuals that make every jump feel rewarding. As you progress, the challenges become more complex, testing your timing, strategy, and concentration in fast-paced runner gameplay.
+Beyond classic parkour movement, the game introduces a unique hidden-object twist inspired by Brainrot challenges. Carefully examine each level to find the correct hidden item among many details. Sharp observation, quick reactions, and attention to detail are essential, because the right element can be hidden anywhere.
+Avoid mistakes, improve your performance, and challenge yourself to master every stage. Compete with friends, climb the leaderboard, and prove your skills in both Obby Parkour movement and Brainrot-style focus challenges.
+With vivid visuals, engaging gameplay, and increasing difficulty, Obby Parkour: Runner Game delivers an entertaining experience that rewards precision, persistence, and concentration.
+    </p>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="section screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshots-grid">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/20/c8/5220c8b7-e653-6a5c-aa82-b4ee6cb9d453/Simulator_Screenshot_-_iPhone_16e_-_2026-01-14_at_05.43.23.png/800x400bb.png" alt="Screenshot 1">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/6e/65/486e6570-84dd-e4e1-033f-2973771c11c3/Simulator_Screenshot_-_iPhone_16e_-_2026-01-14_at_05.44.47.png/800x400bb.png" alt="Screenshot 2">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/9c/5a/da9c5ab0-7461-5d39-5bf2-eff6bf835021/Simulator_Screenshot_-_iPhone_16e_-_2026-01-14_at_05.48.24.png/800x400bb.png" alt="Screenshot 3">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Obby Parkour. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
