@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://trello.com/1/cards/69800944561a4c04bd5ee593/attachments/69800951666bb1f056685c26/download/appicon.png">
+  <title>Obby Parkour</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      padding-top: 3rem;
+      background: url("https://via.placeholder.com/1200x700") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .4), #0f172a);
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      max-width: 500px;
+    }
+
+    .game-icon {
+      width: 120px;
+      border-radius: 24px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 8px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* Buttons */
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .2s, opacity .2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .primary {
+      background: #22c55e;
+      color: #022c22;
+    }
+
+    .secondary {
+      background: rgba(255, 255, 255, .15);
+      color: white;
+    }
+
+    /* Sections */
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .section p {
+      text-align: justify;
+      line-height: 2.5rem;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    /* Screenshots */
+    .screenshots-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .screenshots-grid img {
+      width: 100%;
+      border-radius: 16px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img class="game-icon" src="https://trello.com/1/cards/69800944561a4c04bd5ee593/attachments/69800951666bb1f056685c26/download/appicon.png" alt="Game Icon">
+      <h1>Wit and Wits Puzzle Life</h1>
+      <p>She remains a constant beacon for the truly bizarre.</p>
+      <div class="buttons" style="display:none">
+        <a href="#" class="btn primary">Download</a>
+        <a href="#" class="btn secondary">Watch Trailer</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section">
+    <h2>About the Game</h2>
+    <p>
+      She possesses a wicked wit—sharp, playful, and just dangerous enough to keep people leaning in instead of backing away. Her charm isn’t something she turns on; it exists effortlessly, a quiet gravity that draws others toward her without her ever asking. Conversations bend around her presence, laughter arrives quicker, and even silence feels intentional when she’s near.
+    <br><br>
+Yet beneath that polished ease lies an undeniable strangeness, as though reality itself behaves differently in her orbit. She is a constant beacon for the bizarre, a living invitation for the unusual to step forward and make itself known. Coincidences find her. Odd encounters unfold at her feet. The mundane never quite survives contact with her path.
+    <br><br>
+Wherever she goes, the extraordinary is never far behind. Curious events seem to follow her like loyal companions—unexpected meetings, improbable timing, moments that feel half-scripted by fate and half-improvised by chaos. She doesn’t chase these moments; they arrive naturally, as if drawn to her appetite for the unexpected.
+    <br><br>
+People sense it, too. Some are unsettled by her, unsure whether they’re witnessing luck, mystery, or something quietly supernatural. Others are enchanted, addicted to the feeling that life becomes sharper and more vivid in her presence. With her, the world feels less predictable, more alive—charged with possibility, danger, and delight.
+    <br><br>
+She moves through life with a knowing smile, aware that normality has never truly claimed her. And perhaps it never will. Because for someone like her, the strange isn’t an interruption—it’s a signature.
+
+    </p>
+    <br><br>
+    <h2>Contact Us</h2>
+    <p>
+      If you have any questions or request support, please contact us at:
+      <br>
+      Email: abderrahmanebensmail45@gmail.com
+    </p>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="section screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshots-grid">
+      <img src="https://trello.com/1/cards/69800944561a4c04bd5ee593/attachments/69802763b2f19503424c1000/download/Gemini_Generated_Image_e4mrhoe4mrhoe4mr.png" alt="Screenshot 1">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Obby Parkour. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
